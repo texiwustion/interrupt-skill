@@ -73,8 +73,8 @@ Records are auto-synced to your remote git repo (configurable in `/interrupt-ini
 cp commands/*.md ~/.claude/commands/
 
 # 2. Copy scripts
-mkdir -p ~/.claude/skills/interrupt-record/scripts
-cp scripts/init-repo.sh ~/.claude/skills/interrupt-record/scripts/
+mkdir -p ~/.claude/skills/interrupt-skill/scripts
+cp scripts/init-repo.sh ~/.claude/skills/interrupt-skill/scripts/
 
 # 3. Initialize the interrupts repo (run once)
 /interrupt-init
