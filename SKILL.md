@@ -4,7 +4,13 @@ description: |
   Context interrupt management system for Claude Code. Saves and resumes work sessions
   with Socratic knowledge probing. Four commands: /interrupt (auto-record), /interrupti
   (guided record), /interrupt-init (setup), /interrupt-resume (resume with probing).
-  Trigger words: interrupt, 中断记录, 恢复中断, resume task.
+  Use when recording a work interruption, resuming an interrupted task, or managing
+  context switches between tasks. Trigger words: interrupt, 中断记录, 恢复中断, resume task.
+license: MIT
+compatibility: Claude Code (primary), any agent supporting slash commands
+metadata:
+  author: texiwustion
+  version: 1.0.0
 ---
 
 # Interrupt Skill — Context Interrupt Management
